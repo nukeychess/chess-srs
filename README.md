@@ -9,7 +9,7 @@ I love Anki for language flashcards, but I've never been satisfied with my attem
 ## Features
 
 ### Current Features:
-- None!
+- None! Currently, this is just the empty shell of an Electron app with no functionality.
 
 ### Planned Features (Short-term):
 - Import positions from PGN and FEN
