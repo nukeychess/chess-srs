@@ -22,4 +22,5 @@ I love Anki for language flashcards, but I've never been satisfied with my attem
 ### Planned Features (Long-term):
 - Import positions from image
 - Engine integration
-- Sync progress between devices
+- Export SQLite database to sync progress between devices
+- Web service to do the above in a user-friendly way
