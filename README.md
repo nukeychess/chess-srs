@@ -17,10 +17,11 @@ I love Anki for language flashcards, but I've never been satisfied with my attem
 - Input solution and alternative moves on an analysis board
 - Solving view to quiz yourself on the positions
 - SRS scheduler to determine when to serve a position
-- Import and export collections as PGN databases for maximum compatibility
+
 
 ### Planned Features (Long-term):
 - Import positions from image
 - Engine integration
-- Export SQLite database to sync progress between devices
+- Import and export collections as PGN databases for sharing
+- Export SQLite solving history database to sync progress between devices
 - Web service to do the above in a user-friendly way
