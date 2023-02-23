@@ -9,7 +9,8 @@ I love Anki for language flashcards, but I've never been satisfied with my attem
 ## Features
 
 ### Current Features:
-- None! Currently, this is just the empty shell of an Electron app with a boostrap starter template and no functionality. It will not be a usable app until all the features in the short-term section are completed.
+- None! Currently, it just displays a placeholder GUI with a position editor chessboard.
+- This will not be a usable app until all the features in the short-term section are completed, at which point I'll make a 1.0 release.
 
 ### Planned Features (Short-term):
 - Integrate [chessboard.js](https://github.com/oakmac/chessboardjs/) as a chess GUI
