@@ -12,7 +12,7 @@ I love Anki for language flashcards, but I've never been satisfied with my attem
 - None! Currently, this is just the empty shell of an Electron app with a boostrap starter template and no functionality. It will not be a usable app until all the features in the short-term section are completed.
 
 ### Planned Features (Short-term):
-- Integrate [chessground](https://github.com/lichess-org/chessground) from lichess as a chess GUI
+- Integrate [chessboard.js](https://github.com/oakmac/chessboardjs/) as a chess GUI
 - Import positions from PGN and FEN
 - Input solution and alternative moves on an analysis board
 - Solving view to quiz yourself on the positions
