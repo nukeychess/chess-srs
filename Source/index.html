@@ -15,8 +15,18 @@
         <div class="col border border-dark">
           <div class = "row border border-dark"> board goes here
             <div id="board2" style="width: 400px"></div>
+            <div>
+              <div>
+                  <div class="input-group">
+                      <input type="text" id = "fenInput" class="form-control" value = 'r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R'/>
+                      <button id="fenBtn">Import FEN</button>
+                  </div>
+              </div>
+            </div>
+          
             <button id="startBtn">Start Position</button>
-            <button id="clearBtn">Clear Board</button> </div>
+            <button id="clearBtn">Clear Board</button>
+           </div>
           <div class = "row border border-dark justify-content-center">
             <h5> Player Name vs Player Name</h4>
             tournament <br>
@@ -43,7 +53,10 @@
       sparePieces: true
     })
     
+    $('#clearBtn').on('click', board2.clear)
     $('#startBtn').on('click', board2.start)
-    $('#clearBtn').on('click', board2.clear) </script>
-  </body>
+    $('#fenBtn').on('click', function () {
+      board2.position($('#fenInput'). val())
+    })
+    </script>
 </html>
