@@ -13,16 +13,21 @@ I love Anki for language flashcards, but I've never been satisfied with my attem
 - This will not be a usable app until all the features in the short-term section are completed, at which point I'll make a 1.0 release.
 
 ### Planned Features (Short-term):
-- Integrate [chessboard.js](https://github.com/oakmac/chessboardjs/) as a chess GUI
-- Import positions from PGN and FEN
-- Input solution and alternative moves on an analysis board
-- Solving view to quiz yourself on the positions
-- SRS scheduler to determine when to serve a position
 
+- Create collections to organize problems
+- Add problems to collections with an FEN/PGN import system
+- Solve problems that are due for review in a training view
+- Puzzles are scheduled to be served on an SRS schedule
+- User solve history and problem collections are stored as a sqlite database that can easily be transferred between devices.
 
 ### Planned Features (Long-term):
 - Import positions from image
-- Engine integration
+- UCI engine integration
 - Import and export collections as PGN databases for sharing
-- Export SQLite solving history database to sync progress between devices
-- Web service to do the above in a user-friendly way
+- Web service to sync database between device in a user-friendly way
+
+### Parts of the app that come from third party projects
+- The chessboard GUI is [chessboard.js](https://github.com/oakmac/chessboardjs/)
+- The app is made with [electronjs](https://www.electronjs.org/)
+- The front-end framework is [bootstrap](https://getbootstrap.com/)
+- The SRS scheduling algorithm is (will be) based on [SM-2](https://super-memory.com/english/ol/sm2.htm)
